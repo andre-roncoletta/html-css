@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: idroid;
+    src: url(idroid.otf);
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(180deg, #3cd883, #174F31);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 3px 5px 3px;
+    box-shadow: 1px 1px 1px black;
+}
+
+section > h1{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.427);
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+p#textotop{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.427);
+    text-align: center;
+    font-size: 13px;
+    margin: 20px;
+}
+
+nav >  a{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+div#corpoverde{
+    background-color: white;
+    display: inline-block;
+    margin: 0px 300px 30px 300px;
+    padding: 0px 25px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.49);
+}
+
+main{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulofonte{
+    font-family: idroid;
+    color: #1B5C38;
+}
+
+h3{
+    background-image: linear-gradient(90deg, rgba(150, 255, 150, 0.622), rgba(150, 255, 150, 0));
+}
+
+div > p{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+#video{
+    background-color: #174F31;
+    margin: 20px -25px;
+    padding: 20px 10px;
+    outline: 10px;
+}
+
+#video > iframe{
+    display: block;
+    margin: auto;
+}
+
+#final{
+    background-color: #d5ffe8;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 0px 0px 4px 0px;
+    display: inline-block;
+}
+
+#final > p{
+    padding: 0px 10px;
+    text-indent: 1.5em;
+}
+
+h4{
+    background-color: #174F31;
+    color: white;
+    padding: 10px;
+    margin: 0px 0px 5px 0px;
+    border-radius: 10px 10px 0px 0px
+}
+
+ul{
+    display: inline-block;
+}
+
+#lista1{
+    margin: 0px 50px 0px 0px;
+}
+
+#lista2{
+    margin: 0px 0px 0px 100px;
+}
+
+footer{
+    background-color: #174F31;
+    margin: 0px;
+    padding: 1px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.748);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > p{
+    margin: 5px 0px
+}

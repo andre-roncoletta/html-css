@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(122, 122, 122);
+            margin: 0px
+        }
+
+        header{
+            background-color: rgb(207, 207, 207);
+            padding: 10px;
+            margin: 10px;
+            text-align: center
+        }
+
+        nav{
+            background-color: gray;
+            padding:3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.504);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover{
+               text-decoration: underline;
+
+        }
+
+        
+        article{
+            background-color: rgb(143, 143, 143);
+            padding: 2px
+        }
+        
+        article > aside{
+            background-color: rgb(201, 201, 250);
+            padding: 3px;
+        }
+
+        main{
+            background-color:rgb(207, 207, 207) ;
+            padding: 10px;
+            margin: 10px
+        }
+
+        footer{
+            background-color: rgb(71, 71, 71);
+            text-align: center;
+            color: rgb(207, 207, 207);
+            padding: 5px;
+            
+        }
+
+        footer > p{
+            margin:0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+        <p>Cristiano Ronaldo</p>
+       </section>
+       <section id="noticias">
+        <article>
+            <h2>Noticia sobre o BRASIL</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius distinctio consequatur provident molestias cumque, recusandae esse earum in dolor magni praesentium ad, qui dignissimos pariatur atque dolores? Qui, sit nostrum.</p>
+            <aside>
+                <p>Artgio escrito por Andre</p>
+            </aside>
+        </article>
+        <article>
+
+        </article>
+       </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Andre</p>
+    </footer>
+</body>
+</html>
