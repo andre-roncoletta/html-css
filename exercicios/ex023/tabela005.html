@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupando colunas com colgroup</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tr.destaque {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabela</h1>
+
+    <table>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+
+        <tr>
+            <td>Cesar</td>
+            <td>Masculino</td>
+            <td>33</td>
+            <td>Pedreiro</td>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>45</td>
+            <td>Dentista</td>
+        </tr>
+
+        <tr class="destaque">
+            <td>Jorge</td>
+            <td>Masculino</td>
+            <td>39</td>
+            <td>Desempregado/Vagabundo</td>
+        </tr>
+
+        <tr>
+            <td>Laura</td>
+            <td>Feminino</td>
+            <td>22</td>
+            <td>Job</td>
+        </tr>
+    </table>
+</body>
+</html>
